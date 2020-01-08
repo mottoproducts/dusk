@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\Dusk;
+namespace Comtree\DuskSecure;
 
 abstract class Component
 {
@@ -14,7 +14,7 @@ abstract class Component
     /**
      * Assert that the current page contains this component.
      *
-     * @param  \Laravel\Dusk\Browser  $browser
+     * @param  \Comtree\DuskSecure\Browser  $browser
      * @return void
      */
     public function assert(Browser $browser)

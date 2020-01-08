@@ -1,9 +1,9 @@
 <?php
 
-namespace Laravel\Dusk\Console;
+namespace Comtree\DuskSecure\Console;
 
 use Illuminate\Console\Command;
-use Laravel\Dusk\OperatingSystem;
+use Comtree\DuskSecure\OperatingSystem;
 use ZipArchive;
 
 /**

@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\Dusk;
+namespace Comtree\DuskSecure;
 
 use BadMethodCallException;
 use Closure;
@@ -13,8 +13,7 @@ use Illuminate\Support\Traits\Macroable;
 
 class Browser
 {
-    use Concerns\InteractsWithAuthentication,
-        Concerns\InteractsWithCookies,
+    use Concerns\InteractsWithCookies,
         Concerns\InteractsWithElements,
         Concerns\InteractsWithJavascript,
         Concerns\InteractsWithMouse,
@@ -87,7 +86,7 @@ class Browser
     /**
      * The element resolver instance.
      *
-     * @var \Laravel\Dusk\ElementResolver
+     * @var \Comtree\DuskSecure\ElementResolver
      */
     public $resolver;
 
@@ -116,7 +115,7 @@ class Browser
      * Create a browser instance.
      *
      * @param  \Facebook\WebDriver\Remote\RemoteWebDriver  $driver
-     * @param  \Laravel\Dusk\ElementResolver  $resolver
+     * @param  \Comtree\DuskSecure\ElementResolver  $resolver
      * @return void
      */
     public function __construct($driver, $resolver = null)
@@ -454,8 +453,8 @@ class Browser
     /**
      * Set the current component state.
      *
-     * @param  \Laravel\Dusk\Component  $component
-     * @param  \Laravel\Dusk\ElementResolver  $parentResolver
+     * @param  \Comtree\DuskSecure\Component  $component
+     * @param  \Comtree\DuskSecure\ElementResolver  $parentResolver
      * @return void
      */
     public function onComponent($component, $parentResolver)

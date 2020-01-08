@@ -9,7 +9,9 @@
 
 ## Introduction
 
-Laravel Dusk provides an expressive, easy-to-use browser automation and testing API. By default, Dusk does not require you to install JDK or Selenium on your machine. Instead, Dusk uses a standalone Chromedriver. However, you are free to utilize any other Selenium driver you wish.
+Laravel Dusk provides an expressive, easy-to-use browser automation and testing API. However, it was made with testing in mind, and as such, was never really meant for use in production, because it could lead to arbitrary users being able to authenticate with your application.
+
+In this version, this threat has been eliminated. 
 
 ## Official Documentation
 

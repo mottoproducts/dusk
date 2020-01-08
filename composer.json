@@ -1,5 +1,5 @@
 {
-    "name": "laravel/dusk",
+    "name": "comtree/dusk-secure",
     "description": "Laravel Dusk provides simple end-to-end testing and browser automation.",
     "keywords": ["laravel", "testing", "webdriver"],
     "license": "MIT",
@@ -31,12 +31,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Laravel\\Dusk\\": "src/"
+            "Comtree\\DuskSecure\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Laravel\\Dusk\\Tests\\": "tests/"
+            "Comtree\\DuskSecure\\Tests\\": "tests/"
         }
     },
     "extra": {
@@ -45,7 +45,7 @@
         },
         "laravel": {
             "providers": [
-                "Laravel\\Dusk\\DuskServiceProvider"
+                "Comtree\\DuskSecure\\DuskSecureServiceProvider"
             ]
         }
     },

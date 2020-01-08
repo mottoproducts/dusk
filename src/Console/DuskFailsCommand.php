@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\Dusk\Console;
+namespace Comtree\DuskSecure\Console;
 
 class DuskFailsCommand extends DuskCommand
 {

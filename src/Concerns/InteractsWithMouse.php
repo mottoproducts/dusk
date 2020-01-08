@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\Dusk\Concerns;
+namespace Comtree\DuskSecure\Concerns;
 
 use Facebook\WebDriver\Interactions\WebDriverActions;
 

@@ -1,8 +1,8 @@
 <?php
 
-namespace Laravel\Dusk\Tests;
+namespace Comtree\DuskSecure\Tests;
 
-use Laravel\Dusk\Chrome\SupportsChrome;
+use Comtree\DuskSecure\Chrome\SupportsChrome;
 use PHPUnit\Framework\TestCase;
 
 class SupportsChromeTest extends TestCase

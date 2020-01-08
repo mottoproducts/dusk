@@ -1,8 +1,8 @@
 <?php
 
-namespace Laravel\Dusk\Tests;
+namespace Comtree\DuskSecure\Tests;
 
-use Laravel\Dusk\Concerns\ProvidesBrowser;
+use Comtree\DuskSecure\Concerns\ProvidesBrowser;
 use Mockery as m;
 use PHPUnit\Framework\TestCase;
 use stdClass;

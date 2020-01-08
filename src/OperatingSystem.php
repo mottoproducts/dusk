@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\Dusk;
+namespace Comtree\DuskSecure;
 
 use Illuminate\Support\Str;
 

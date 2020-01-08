@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\Dusk\Http\Controllers;
+namespace Comtree\DuskSecure\Http\Controllers;
 
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Str;

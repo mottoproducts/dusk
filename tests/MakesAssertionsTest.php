@@ -1,9 +1,9 @@
 <?php
 
-namespace Laravel\Dusk\Tests;
+namespace Comtree\DuskSecure\Tests;
 
 use Facebook\WebDriver\Remote\RemoteWebElement;
-use Laravel\Dusk\Browser;
+use Comtree\DuskSecure\Browser;
 use Mockery as m;
 use PHPUnit\Framework\ExpectationFailedException;
 use PHPUnit\Framework\TestCase;

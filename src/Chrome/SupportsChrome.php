@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\Dusk\Chrome;
+namespace Comtree\DuskSecure\Chrome;
 
 trait SupportsChrome
 {

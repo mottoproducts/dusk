@@ -1,8 +1,8 @@
 <?php
 
-namespace Laravel\Dusk\Tests;
+namespace Comtree\DuskSecure\Tests;
 
-use Laravel\Dusk\Chrome\ChromeProcess;
+use Comtree\DuskSecure\Chrome\ChromeProcess;
 use PHPUnit\Framework\TestCase;
 use RuntimeException;
 use Symfony\Component\Process\Process;
